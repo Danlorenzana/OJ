@@ -1,117 +1,105 @@
 body {
-	margin: 0;
-	font-family: 'Quicksand', sans-serif;
-	height: 100%;
-	
+margin : 0;
+font-family : 'Quicksand', sans-serif;
+height : 100%;
 }
-/*
-*NAVIGATION
-*/
 nav {
-	height: 110px;
-	border-bottom: 9px solid #EA7010;
-	background-color: #FE7E00;
+height : 110px;
+border-bottom : 9px solid #EA7010;
+background-color : #FE7E00;
 }
 nav .logo {
-	top: 18px;
-	left: 80px;
-	position: absolute;
+top : 18px;
+left : 80px;
+position : absolute;
 }
-nav .logo img{
-	height: 70px;
+nav .logo img {
+height : 70px;
 }
 nav ul {
-	top: 30px;
-	right:35px; 
-	position: absolute;
+top : 30px;
+right : 35px;
+position : absolute;
 }
 nav ul li {
-	display: inline-block;
-	padding-right: 40px;
+display : inline-block;
+padding-right : 40px;
 }
-nav ul li a{
-	font-size: 16px;
-	color: #FFF;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: 700;
+nav ul li a {
+font-size : 16px;
+color : #FFF;
+text-decoration : none;
+text-transform : uppercase;
+font-weight : 700;
 }
-/*
-*SECTION
-*/
 section {
-	height: 650px;
-	margin: 0px;
-	padding: 10px;
-	background-color: #f9f9f9;
+height : 650px;
+margin : 0;
+padding : 10px;
+background-color : #f9f9f9;
 }
-section .searchbar{
-	float: right;
-	margin-right: 65px;
+section .searchbar {
+float : right;
+margin-right : 65px;
 }
 section .searchbar i {
-	background-color: #ddd;
-	padding: 10px;
-	margin: 0;
+background-color : #ddd;
+padding : 10px;
+margin : 0;
 }
 section input {
-	border: none;
-	background-color: #ddd;
-	margin: 0;
-	
-	font-size: 13px;
-	padding: 10px;
+border : none;
+background-color : #ddd;
+margin : 0;
+font-size : 13px;
+padding : 10px;
 }
 section .mainstuff {
-	margin: 0 auto;
-	width: 90%;
-	padding-top: 100px;
+margin : 0 auto;
+width : 90%;
+padding-top : 100px;
 }
 section .mainstuff .oranges img {
-	height: 500px;
-	width: 500px;
-	float: left;
-	margin: 40px;
+height : 500px;
+width : 500px;
+float : left;
+margin : 40px;
 }
 section .mainstuff .copy h1 {
-	font-size: 50px;
-	font-weight: 300;
-	margin: 40px;
-	color: #DF833B;
-	letter-spacing: -3.5px;
+font-size : 50px;
+font-weight : 300;
+margin : 40px;
+color : #DF833B;
+letter-spacing : -3.5px;
 }
 #unique {
-	color: #DF833B;
+color : #DF833B;
 }
 section .mainstuff .copy span {
-	color: #8DBFB6;
-	font-weight: 700;
+color : #8DBFB6;
+font-weight : 700;
 }
 section .mainstuff .copy sup {
-	font-size: 25px;
+font-size : 25px;
 }
 .copy button {
-	border: none;
-	text-transform: uppercase;
-	padding: 20px 50px;
-	margin: 17px;
-	font-size: 16px;
-	color: #fff;
+border : none;
+text-transform : uppercase;
+padding : 20px 50px;
+margin : 17px;
+font-size : 16px;
+color : #fff;
 }
 .copy .button1 {
-	margin-left: 0;
-	background-color: #f97902;
+margin-left : 0;
+background-color : #f97902;
 }
 .copy .button2 {
-	background-color: #7accc6;
+background-color : #7accc6;
 }
-/*
-*FOOTER
-*/ 
 footer {
-	height: 60px;
-	margin: 0px;
-	padding: 10px;
-	background-color: #7accc8;
+height : 60px;
+margin : 0;
+padding : 10px;
+background-color : #7accc8;
 }
-
