@@ -1,5 +1,5 @@
 body {
-margin : 0;
+margin : 0 auto;
 font-family : 'Quicksand', sans-serif;
 height : 100%;
 }
@@ -7,19 +7,20 @@ nav {
 height : 110px;
 border-bottom : 9px solid #EA7010;
 background-color : #FE7E00;
+margin : 0 auto;
 }
 nav .logo {
-top : 18px;
-left : 80px;
-position : absolute;
+float : left;
+margin-top : 20px;
+margin-left : 20px;
 }
 nav .logo img {
 height : 70px;
 }
 nav ul {
-top : 30px;
-right : 35px;
-position : absolute;
+float : right;
+margin-top : 45px;
+margin-right : 20px;
 }
 nav ul li {
 display : inline-block;
@@ -32,8 +33,7 @@ text-decoration : none;
 text-transform : uppercase;
 font-weight : 700;
 }
-section {
-height : 650px;
+.search {
 margin : 0;
 padding : 10px;
 background-color : #f9f9f9;
@@ -54,18 +54,26 @@ margin : 0;
 font-size : 13px;
 padding : 10px;
 }
-section .mainstuff {
+.main {
 margin : 0 auto;
-width : 90%;
-padding-top : 100px;
+width : 100%;
+padding : 100px 50px 90px;
+display : inline-block;
+background-color : #f9f9f9;
 }
-section .mainstuff .oranges img {
-height : 500px;
-width : 500px;
+.main div {
+width : 47%;
+margin : 0 20px 0 0;
 float : left;
+}
+.main .oranges img {
+width : 90%;
 margin : 40px;
 }
-section .mainstuff .copy h1 {
+.main .copy {
+padding-right : 10px;
+}
+.main .copy h1 {
 font-size : 50px;
 font-weight : 300;
 margin : 40px;
@@ -75,23 +83,24 @@ letter-spacing : -3.5px;
 #unique {
 color : #DF833B;
 }
-section .mainstuff .copy span {
+.main .copy span {
 color : #8DBFB6;
 font-weight : 700;
 }
-section .mainstuff .copy sup {
+.main .copy sup {
 font-size : 25px;
 }
 .copy button {
 border : none;
 text-transform : uppercase;
 padding : 20px 50px;
+width : 42%;
 margin : 17px;
 font-size : 16px;
 color : #fff;
 }
 .copy .button1 {
-margin-left : 0;
+margin-left : 20px;
 background-color : #f97902;
 }
 .copy .button2 {
@@ -102,4 +111,72 @@ height : 60px;
 margin : 0;
 padding : 10px;
 background-color : #7accc8;
+}
+@media (max-width:1022px) {
+nav {
+height : 160px;
+text-align : center;
+}
+.main .copy h1 {
+font-size : 45px;
+}
+nav .logo {
+float : none;
+}
+nav ul {
+float : none;
+margin : 0 auto;
+margin-top : 15px;
+}
+}
+@media (max-width:832px) {
+.main .copy h1 {
+font-size : 40px;
+}
+.copy .button1 {
+width : 100%;
+}
+.copy .button2 {
+width : 100%;
+}
+.main div {
+width : 80%;
+margin : 0;
+padding : 0;
+}
+.main .oranges img {
+margin : 0;
+text-align : center;
+width : 100%;
+}
+}
+@media (max-width:609px) {
+nav ul li {
+padding : 15px 20px 0;
+}
+.main {
+padding : 100px 10px 90px;
+}
+}
+@media (max-width:401px) {
+nav {
+height : 195px;
+}
+nav .logo img {
+height : 65px;
+}
+nav .logo {
+margin : 0;
+}
+nav ul {
+margin : 0;
+}
+}
+@media (max-width:349px) {
+nav .logo img {
+height : 55px;
+}
+.main .copy h1 {
+font-size : 35px;
+}
 }
